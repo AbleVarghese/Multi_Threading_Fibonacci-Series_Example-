@@ -17,9 +17,9 @@ public class MyRunnable implements Runnable {
 	}
 
 	private synchronized void Task1() {
-		//printing Fibonacci series upto number
+		// printing Fibonacci series upto number
 		for (int i = 1; i <= this.number; i++) {
-			System.out.print("Runnable "+this._name+"  Fib: "+ fibonacciRecusion(i) + ",      ");
+			System.out.print("Runnable " + this._name + "  Fib: " + fibonacciRecusion(i) + ",      ");
 
 			try {
 				Thread.sleep(1000); // wait for 1000 ms = 1 sec
@@ -33,7 +33,7 @@ public class MyRunnable implements Runnable {
 
 	}
 
-	//Fibonacci logic is implemented using Recusion method
+	// Fibonacci logic is implemented using Recusion method
 	public static int fibonacciRecusion(int num) {
 		if (num == 1 || num == 2) {
 			return 1;
