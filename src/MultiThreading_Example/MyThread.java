@@ -1,4 +1,5 @@
-package com.centennialcollege.comp228_lesson13;
+package MultiThreading_Example;
+/*package com.centennialcollege.comp228_lesson13;
 
 public class MyThread extends Thread {
 	//PRIVATE INSTANCE VARIABLE
@@ -14,7 +15,7 @@ public class MyThread extends Thread {
 		
 		// TASK
 		for(int index = 0; index < 10; index++) {
-			System.out.println("Thread " + this._name + " Count: " + index);
+			System.out.println("Thread No." + this._name + " Count: " + index+"\n");
 			try {
 				sleep(1000); // wait for 1000 ms = 1 sec
 			} catch (InterruptedException exception) {
@@ -28,3 +29,4 @@ public class MyThread extends Thread {
 	
 	
 }
+*/
