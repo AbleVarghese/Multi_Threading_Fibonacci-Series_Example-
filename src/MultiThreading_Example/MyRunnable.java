@@ -33,6 +33,7 @@ public class MyRunnable implements Runnable {
 
 	}
 
+	//Fibonacci logic is implemented using Recusion method
 	public static int fibonacciRecusion(int num) {
 		if (num == 1 || num == 2) {
 			return 1;
